@@ -7,7 +7,7 @@
 
 ## 在线预览
 
-https://davidaugust03.github.io/web_tool/
+https://github.com/chivecubic-arch/static-web-tools.git
 
 ## 二次开发
 
