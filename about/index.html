@@ -7,10 +7,10 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
-    <title>在线工具网</title>
-    <link rel="shortcut icon" href="../assets/images/favicon.png" />
-    <meta name="keywords" content="在线工具网" />
-    <meta name="description" content="在线网址导航, 各类开发工具、绘图绘画工具、md5、在线ps、base64、房贷计算器等" />
+    <title>Online tool network</title>
+    <link rel="shortcut icon" href="../assets/images/local.png" />
+    <meta name="keywords" content="Online tool network" />
+    <meta name="description" content="Online website directory, various development tools, drawing tools, MD5, online Photoshop, Base64, mortgage calculator, etc." />
 
     <link rel="stylesheet" id="block-library-css"
         href="./assets/css/block-library.min-5.6.2.css" type="text/css" media="all" />
@@ -43,7 +43,7 @@
 <body class="page-body boxed-container">
     <main role="main" class="flex-shrink-0">
     <div class="container">
-        <h1 class="mt-5">关于作者</h1>
+        <h1 class="mt-5">About Author</h1>
         <div class="content">
             <br/>
 <p>Hi, I'm Chive, a developer with a software engineering background and five years of experience in the new energy industry. While my career path has been unconventional, my passion for technology and professional dedication have remained constant.</p>
@@ -56,10 +56,10 @@
 • Naturally curious about new technologies, I'm able to quickly assimilate emerging technologies into practical solutions.
 • As an active participant in tech communities, I continuously expand my technical perspective and sharpen my problem-solving skills through ongoing learning and exchange.</p>
 <br/>
-<h4 id="联系方式">联系方式</h4>
+<h4 id="Contact information">Contact information</h4>
 <ul>
 <li>Github: <a href="https://github.com/chivecubic-arch">github.com/DavidAugust03</a></li>
-<li>个人主页: <a href="https://github.com/chivecubic-arch">github.com/DavidAugust03/<a></li>
+<li>Homepage: <a href="https://github.com/chivecubic-arch">github.com/DavidAugust03/<a></li>
 </ul>
 
         </div>
@@ -93,13 +93,13 @@
 
 
 		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
+                    data-toggle="tooltip" data-placement="left" title="day mode">
                     <i class="mode-ico iconfont icon-night"></i>
                 </a>
 
             </div>
             <div class="footer-inner">
-                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：arianekobycy@gmail.com <br/>© 2021 - 2023 By <a href="https://github.com/DavidAugust03/web_tool">Web_tool</a> | <a href="http://beian.miit.gov.cn/">粤ICP备202301858588号</a><br/></div>
+                <div class="footer-text">The content on this site is sourced from the internet. If any content infringes upon your rights, please contact us to have it removed. Contact email:chivecubic@gmail.com <br/>© 2021 - 2023 By <a href="https://github.com/DavidAugust03/web_tool">Web_tool</a> | <a href="http://beian.miit.gov.cn/">粤ICP备202301858588号</a><br/></div>
             </div>
         </footer>
     </div>
@@ -186,11 +186,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
             document.body.classList.remove('io-black-mode');
             document.body.classList.add('io-grey-mode');
             document.cookie = "night=1;path=/";
-            console.log('夜间模式开启');
+            console.log('dark mode on');
         }else{
             document.body.classList.remove('night');
             document.cookie = "night=0;path=/";
-            console.log('夜间模式关闭');
+            console.log('dark mode off');
         }
     }else{
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
@@ -211,7 +211,7 @@ function switchNightMode(){
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
+        $(".switch-dark-mode").attr("data-original-title","day mode");
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
@@ -220,7 +220,7 @@ function switchNightMode(){
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
         console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
+        $(".switch-dark-mode").attr("data-original-title","dark mode");
         $(".mode-ico").removeClass("icon-light");
         $(".mode-ico").addClass("icon-night");
     }
