@@ -7,7 +7,7 @@
 
 ## 在线预览
 
-https://github.com/chivecubic-arch/static-web-tools.git
+https://chivecubic-arch.github.io/static-web-tools/
 
 ## 二次开发
 
